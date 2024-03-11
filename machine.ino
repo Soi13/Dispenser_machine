@@ -1,8 +1,8 @@
 //Dispenser machine for mixing juices and drinks.
 #include <DS3231.h>
-#include <Wire.h> //Connect SCL of RTC module to the Arduino A5, Connect SDA of RTC module to the Arduino A4
 #include <LiquidCrystal.h>
-#include <RTClib.h>
+#include <SD.h>
+#include <IRremote.h>
 
 #define BUTTON_2_PIN 2
 #define BUTTON_3_PIN 3
